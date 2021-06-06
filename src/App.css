@@ -137,39 +137,70 @@ button:active, button:focus {
 .film {
   margin: 20px 0;
   display: flex; }
+  @media (max-width: 767.98px) {
+    .film {
+      flex-direction: column; } }
   .film__img {
     width: 300px;
     box-shadow: 10px 10px 15px #111106; }
+    @media (max-width: 767.98px) {
+      .film__img {
+        margin: 0 0 20px;
+        width: 250px; } }
   .film__about {
     margin: 0 0 0 30px; }
+    @media (max-width: 767.98px) {
+      .film__about {
+        margin: 0; } }
   .film__title {
     font-weight: 700;
     font-size: 36px;
     margin: 0 0 10px; }
+    @media (max-width: 767.98px) {
+      .film__title {
+        font-size: 28px; } }
   .film__subtitle {
     font-size: 16px;
     color: #ffffff; }
+    @media (max-width: 767.98px) {
+      .film__subtitle {
+        font-size: 14px; } }
   .film__runtime {
     color: #949494;
     font-size: 18px;
     margin: 0 0 10px; }
+    @media (max-width: 767.98px) {
+      .film__runtime {
+        font-size: 16px; } }
   .film__year {
     color: #949494;
     font-size: 22px;
     margin: 0 0 10px; }
+    @media (max-width: 767.98px) {
+      .film__year {
+        font-size: 18px; } }
   .film__genres {
     color: #949494;
     font-size: 18px;
     margin: 0 0 30px; }
+    @media (max-width: 767.98px) {
+      .film__genres {
+        font-size: 16px; } }
   .film__rating {
     color: #949494;
     font-size: 18px;
     margin: 0 0 10px; }
+    @media (max-width: 767.98px) {
+      .film__rating {
+        font-size: 16px; } }
   .film__description {
     line-height: 1.5;
     font-size: 16px;
     color: #d7d7d7;
     margin: 0 0 30px; }
+    @media (max-width: 767.98px) {
+      .film__description {
+        font-size: 14px; } }
 
 .btn {
   cursor: pointer;

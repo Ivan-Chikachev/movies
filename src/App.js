@@ -12,7 +12,7 @@ function App() {
                 <PageState>
                     <AboutState>
                         <Switch>
-                            <Route path={'/'} exact component={Page}/>
+                            <Route path={'/movies'} exact component={Page}/>
                             <Route path={'/film'} exact component={About}/>
                         </Switch>
                     </AboutState>
