@@ -1,5 +1,8 @@
 import {useContext, useEffect, useState} from "react";
 import {PageContext} from "../context/Page/PageContext";
+import About from "./About";
+import Pagination from "./Pagination";
+import {Link, NavLink} from "react-router-dom";
 
 export default () => {
 
@@ -24,9 +27,12 @@ export default () => {
                             <img className={'film-item__img'} src={item.medium_cover_image} alt=""/>
                         </div>
                         <div className={'film-item__about'}>
-                            <h3 className={'film-item__title'}>
+                            <NavLink className={'film-item__title'} to={{
+                                pathname:'/film',
+                                state: {item}
+                            }}>
                                 {item.title}
-                            </h3>
+                            </NavLink>
                             <p className={'film-item__year'}>
                                 {item.year}
                             </p>
@@ -37,26 +43,18 @@ export default () => {
                                 {item.runtime} min
                             </p>
                             <p className="film-item__description">
-                                {item.description_full.length < 300? item.description_full :
+                                {item.description_full.length < 300
+                                    ?
+                                    item.description_full
+                                    :
                                     item.description_full.slice(0,300) + '...'
                                 }
                             </p>
                         </div>
-
                     </div>
                 )}
             </div>
-            <div className={'pagination'}>
-                {pages.map((page, index) =>
-                    <span key={index}
-                          className={currentPage === page ? 'current_page page' : 'page'}
-                          onClick={() => setCurrentPage(page)}
-                    >
-                            {page}
-                        </span>
-                )}
-            </div>
-
+            <Pagination currentPage={currentPage} pages={pages} setCurrentPage={setCurrentPage}/>
         </div>
     );
 };

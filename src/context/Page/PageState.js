@@ -24,7 +24,8 @@ export const PageState = (props) => {
             dispatch(setFilms(response.data.data.movies))
             dispatch(setTotalFilms(response.data.data.movie_count))
         })
-    }
+    }  // Запрос данных
+
     function createPages(pages, pagesCount, currentPage) {
         if (pagesCount > 11) {
             if (currentPage > 5) {
@@ -43,7 +44,8 @@ export const PageState = (props) => {
                 pages.push(i)
             }
         }
-    }
+    } // Пагинация
+
     return (
         <PageContext.Provider value={{
             state, getFilms, createPages

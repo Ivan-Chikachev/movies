@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db9cc579-df4c-4c14-950d-941a91e06b6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Comments/AboutContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Comments/AboutReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/Comments/AboutState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/Page/PageState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/Page/PageState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/types.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio/scss/style.scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +45,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#projects\movies\src\context" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1622882990327</updated>
       <workItem from="1622883011123" duration="15245000" />
-      <workItem from="1622905849192" duration="4746000" />
+      <workItem from="1622905849192" duration="6719000" />
+      <workItem from="1622918975708" duration="79000" />
+      <workItem from="1622928221591" duration="16995000" />
     </task>
     <servers />
   </component>
@@ -61,10 +73,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="352" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1622884076951" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1622907451766">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1622991234574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622907451766" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622991234574" />
     <state width="659" height="178" key="GridCell.Tab.0.bottom" timestamp="1622888107166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,3 +1,4 @@
 export const GET_FILMS = 'GET_FILMS'
 export const SET_TOTAL_FILMS = 'SET_TOTAL_FILMS'
+export const DELETE_COMMENT = 'DELETE_COMMENT'
 
