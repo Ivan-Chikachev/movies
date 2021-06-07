@@ -1,8 +1,7 @@
 import {useContext, useEffect, useState} from "react";
 import {PageContext} from "../context/Page/PageContext";
-import About from "./About";
 import Pagination from "./Pagination";
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 export default () => {
 

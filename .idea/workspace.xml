@@ -4,8 +4,9 @@
     <list default="true" id="db9cc579-df4c-4c14-950d-941a91e06b6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Old/uchi-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Base/scss/style.scss" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,7 +53,8 @@
       <workItem from="1622883011123" duration="15245000" />
       <workItem from="1622905849192" duration="6719000" />
       <workItem from="1622918975708" duration="79000" />
-      <workItem from="1622928221591" duration="19843000" />
+      <workItem from="1622928221591" duration="20713000" />
+      <workItem from="1623092500630" duration="5582000" />
     </task>
     <servers />
   </component>
@@ -64,10 +66,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="352" y="141" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1622884076951" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1622994161777">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1623100896565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622994161777" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1623100896565" />
     <state width="659" height="178" key="GridCell.Tab.0.bottom" timestamp="1622888107166">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
