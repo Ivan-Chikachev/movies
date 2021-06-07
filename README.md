@@ -6,8 +6,11 @@
 ## Технологии
 
 -Webpack;
+
 -React: UseContext, UseReducer;
+
 -Axios;
+
 -SCSS;
 
 
