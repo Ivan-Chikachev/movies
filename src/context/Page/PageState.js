@@ -1,6 +1,6 @@
 import React, {useReducer} from 'react';
 import {PageReducer} from "./PageReducer";
-import {GET_FILMS,  SET_TOTAL_FILMS} from "../types";
+import {GET_FILMS, SET_TOTAL_FILMS} from "../types";
 import {filmsAPI} from "../../api/api";
 import {PageContext} from "./PageContext";
 
@@ -19,11 +19,10 @@ export const PageState = (props) => {
         count
     })
 
-    const getFilms = (currentPage) => {
-        filmsAPI.getfilms(currentPage).then(response => {
-            dispatch(setFilms(response.data.data.movies))
-            dispatch(setTotalFilms(response.data.data.movie_count))
-        })
+    const getFilms = async (currentPage) => {
+        const response = await filmsAPI.getfilms(currentPage)
+        dispatch(setFilms(response.data.data.movies))
+        dispatch(setTotalFilms(response.data.data.movie_count))
     }  // Запрос данных
 
     function createPages(pages, pagesCount, currentPage) {
